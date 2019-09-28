@@ -1,0 +1,64 @@
+body {
+  background: url(../images/1.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  height: 100vh;
+}
+
+.landmarks-container {
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  width: 50%;
+  right: 0px;
+  padding: 20px;
+  height: 725px;
+}
+
+.landmarks-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.landmarks-h1 {
+  opacity: 1;
+  height: 50px;
+  width: 100%;
+}
+
+figure > img {
+  border: 1px solid orange;
+  width: 200px;
+  height: 150px;
+  opacity: 1;
+}
+
+ul {
+  background-color: orangered;
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
